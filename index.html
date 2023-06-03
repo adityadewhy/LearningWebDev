@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Festivals of INDIA</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Festivals Of India</title>
+		<link rel="icon" href="favicon.png" type="image/x-icon">
+
 		<style>
+			body {
+				background-image: url("images/whisps.jpg");
+				background-size: 1610px 1000px;
+				background-repeat: no-repeat;
+			}
 			.heading1 {
-				background-image: url("wv_home_bkgnd_photo.jpg");
+				background-image: url("images/wv_home_bkgnd_photo.jpg");
 				background-size: 170px 260px;
 			}
 			.heading {
@@ -12,33 +22,35 @@
 				border-style: solid;
 				border-color: white;
 			}
+
 			.about {
 				font-family: bradley hand itc;
 				font-size: 250%;
 				color: blue;
 				font-weight: bolder;
-				background-image: url("whisps.jpg");
+				background-image: url("images/whisps.jpg");
 				background-size: 1610px 1000px;
 				background-repeat: no-repeat;
 				text-align: center;
 			}
 			.img {
-				margin: 5px;
-				padding: 5px;
-				border: 5px solid navy;
+				margin: 1.5px;
+				padding: 4px;
+				border: 4px solid navy;
 				height: auto;
 				width: auto;
 				float: left;
 				text-align: center;
-				background-image: url("whisps.jpg");
+				background-image: url("images/whisps.jpg");
 				background-size: 1610px 1000px;
 				background-repeat: no-repeat;
 			}
+
 			img {
 				display: inline;
-				margin: 5px;
-				border: 1px solid orange;
-				background-image: url("whisps.jpg");
+				margin: 2px;
+				border: 2px solid orange;
+				background-image: url("images/whisps.jpg");
 				background-size: 1610px 1000px;
 				background-repeat: no-repeat;
 			}
@@ -48,9 +60,24 @@
 				font-size: 200%;
 				font-family: bradley hand itc;
 				color: green;
-				background-image: url("whisps.jpg");
+				background-image: url("images/whisps.jpg");
 				background-size: 1610px 1000px;
 				background-repeat: no-repeat;
+			}
+			.feedback {
+				text-align: center;
+				margin-top: 0px;
+				font-family: ar destine;
+				font-size: 200%;
+				color: navy;
+				font-weight: bolder;
+				background-image: url("images/whisps.jpg");
+				background-size: 1610px 1000px;
+				background-repeat: no-repeat;
+			}
+			#quicklistitems {
+				text-align: center;
+
 			}
 			a:link {
 				color: green;
@@ -64,36 +91,34 @@
 			a:active {
 				color: yellow;
 			}
-			.feedback {
-				float: right;
-				margin-top: 0px;
-				font-family: ar destine;
-				font-size: 200%;
-				color: navy;
-				font-weight: bolder;
-				background-image: url("whisps.jpg");
-				background-size: 1610px 1000px;
-				background-repeat: no-repeat;
-			}
-			body {
-				background-image: url("whisps.jpg");
-				background-size: 1610px 1000px;
-				background-repeat: no-repeat;
-			}
 		</style>
 	</head>
 	<body>
 		<div class="heading1">
 			<img
 				class="heading"
-				src="festivalsofindia.jpg"
+				src="images/festivalsofindia.jpg"
 				width="1200"
 				height="240"
 				alt="festivals of india"
 				border="4"
 			/>
-			<br />
 		</div>
+
+		<div>
+			<details>
+				<summary style="color: red; font-family: algerian; font-size: 200%; text-align: center; display: block;">
+					<span >
+						Click here for a quick list of the most famous festivals of India :
+					</span>
+				</summary>
+				<p id="quicklistitems"> 
+					<a href="#Diwali">Diwali</a> <a href="#Dussehra">Dussehra</a> <a href="#Eid-ul-fitr">Eid-ul-Fitr</a> <a href="#Vaisakhi">Vaisakhi</a> <a href="#Holi">Holi</a> <a href="#Christmas">Christmas</a>
+				</p>
+
+			</details>
+		</div>
+
 		<p class="about">
 			India is well known all over the world as a country of cultural and
 			traditional festivals as it has many cultures and religions. One can enjoy
@@ -109,62 +134,104 @@
 			Christian and etc. Some of the festivals are celebrated at national level
 			whereas some of are at regional level.
 		</p>
-		<p style="color: red; font-family: algerian; font-size: 200%">
-			Here is a quick list of the most famous festivals of India...
-		</p>
-		<div class="img">
-			<a href="diwali.html">
-				<img src="Diwali Celebration.jpg" alt="Diwali" width="480" height="380"
-			/></a>
-			<div class="desc"><a href="diwali.html">Diwali</a></div>
-		</div>
-		<div class="img">
-			<a href="Dussehra.html">
-				<img src="dussehra.jpg" alt="Dussehra" width="480" height="380"
-			/></a>
-			<div class="desc"><a href="Dussehra.html">Dussehra</a></div>
-		</div>
-		<div class="img">
-			<a href="eid.html">
-				<img
-					src="A-Corbis-42-19053882_uwpjoh.jpg"
-					alt="Eid"
-					width="480"
-					height="380"
-			/></a>
-			<div class="desc"><a href="eid.html">Eid-ul-Fitr</a></div>
-		</div>
-		<div class="img">
-			<a href="vaisakhi.html">
-				<img src="Vaisakhi-1-5.jpg" alt="Vaisakhi" width="480" height="380"
-			/></a>
-			<div class="desc"><a href="vaisakhi.html">Vaisakhi</a></div>
-		</div>
-		<div class="img">
-			<a href="holi.html">
-				<img src="Kids.jpg" alt="Holi" width="480" height="380"
-			/></a>
-			<div class="desc"><a href="holi.html">Holi</a></div>
-		</div>
-		<div class="img">
-			<a href="christmas.html">
-				<img
-					src="julmarknad_bodarNY694.jpg"
-					alt="Christmas"
-					width="480"
-					height="380"
-			/></a>
-			<div class="desc"><a href="christmas.html">Christmas</a></div>
-		</div>
-		.<br />
+
+		<table>
+			<tr>
+				<td>
+					<div class="img">
+						<a href="diwali.html">
+							<img
+								src="images/Diwali Celebration.jpg"
+								alt="Diwali"
+								width="480"
+								height="380"
+								id="Diwali"
+						/></a>
+						<div class="desc"><a href="diwali.html">Diwali</a></div>
+					</div>
+				</td>
+
+				<td>
+					<div class="img">
+						<a href="Dussehra.html">
+							<img src="images/dussehra.jpg" 
+							alt="Dussehra" 
+							width="480" 
+							height="380"
+							id="Dussehra"
+						/></a>
+						<div class="desc"><a href="Dussehra.html">Dussehra</a></div>
+					</div>
+				</td>
+
+				<td>
+					<div class="img">
+						<a href="eid.html">
+							<img
+								src="images/A-Corbis-42-19053882_uwpjoh.jpg"
+								alt="Eid"
+								width="480"
+								height="380"
+								id="Eid-ul-Fitr"
+						/></a>
+						<div class="desc"><a href="eid.html">Eid-ul-Fitr</a></div>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="img">
+						<a href="vaisakhi.html">
+							<img
+								src="images/Vaisakhi-1-5.jpg"
+								alt="Vaisakhi"
+								width="480"
+								height="380"
+								id="Vaisakhi"
+						/></a>
+						<div class="desc"><a href="vaisakhi.html">Vaisakhi</a></div>
+					</div>
+				</td>
+
+				<td>
+					<div class="img">
+						<a href="holi.html">
+							<img src="images/Kids.jpg" 
+							alt="Holi" 
+							width="480" 
+							height="380"
+							id="Holi"
+						/></a>
+						<div class="desc"><a href="holi.html">Holi</a></div>
+					</div>
+				</td>
+
+				<td>
+					<div class="img">
+						<a href="christmas.html">
+							<img
+								src="images/julmarknad_bodarNY694.jpg"
+								alt="Christmas"
+								width="480"
+								height="380"
+								id="Christmas"
+						/></a>
+						<div class="desc"><a href="christmas.html">Christmas</a></div>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<br />
+
 		<hr size="10" width="800" color="green" align="center" />
-		<br /><br />
+
 		<div class="feedback">
 			Help us improve our website , <a href="feedback.html">Give feedback</a> to
 			us
 		</div>
-		.<br />
+
 		<hr size="10" width="800" color="green" align="center" />
-		<br /><br />
 	</body>
 </html>
